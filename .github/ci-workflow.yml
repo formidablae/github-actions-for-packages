@@ -4,9 +4,6 @@ name: Node CI
 
 on:
   push:
-    # branches-ignore:
-    #   - "ci-workflow"
-    #   - "docker-workflow"
     paths:
       - "**Dockerfile**"
 jobs:
